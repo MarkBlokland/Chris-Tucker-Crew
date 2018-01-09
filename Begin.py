@@ -1,7 +1,6 @@
 class car:
     direction = 'horizontal'
-    head = [0,0]
-    tail = [0,0]
+    position = []
     
     def changeDirection(self):
         if self.direction is 'horizontal':
@@ -18,6 +17,7 @@ class car:
         
         
 '''
+if car2.position is in car3.position -> collision
 car = car()
 car.changeDirection()
 print(car.direction)
