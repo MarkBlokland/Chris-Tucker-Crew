@@ -25,12 +25,12 @@ print(car.direction)
 
 HEIGHT = None
 WIDTH = None
-RED_CAR = 1
+RED_CAR_COORDINATE = 1
 exit_coordinate = 'not initialized'
     
 matrix = []
 matrix.append([0,0,0,0])
-matrix.append([0,RED_CAR,RED_CAR,2])
+matrix.append([0,RED_CAR_COORDINATE,RED_CAR_COORDINATE,2])
 matrix.append([0,0,0,2])
 matrix.append([0,0,0,0])
 
@@ -39,6 +39,6 @@ WIDTH = len(matrix[0])
 
 for i in range(HEIGHT):
     for j in range(WIDTH):
-        if exit_coordinate is 'not initialized' and matrix[i][j] == RED_CAR:
+        if exit_coordinate is 'not initialized' and matrix[i][j] == RED_CAR_COORDINATE:
             exit_coordinate = [i,WIDTH-1]
         
