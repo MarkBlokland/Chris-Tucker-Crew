@@ -1,16 +1,6 @@
 WIDTH = 6
 HEIGHT = 6
 
-matrix = []
-matrix.append([0,0])
-matrix.append([1,0])
-
-def a(x):
-    x.append([1,1])
-    print(len(x))
-    
-print(matrix)
-
 cars_checked = []
         
 def recursion(current_car, target_coordinate):
