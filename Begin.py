@@ -8,6 +8,15 @@ class car:
             self.direction = 'vertical'
         else:
             self.direction = 'horizontal'
+      
+    def collision(Car):
+        if ....:
+            return true
+        else:
+            return false
+        
+        
+        
 '''
 car = car()
 car.changeDirection()
